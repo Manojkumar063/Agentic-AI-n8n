@@ -1,0 +1,128 @@
+{
+  "name": "AI-Agent",
+  "nodes": [
+    {
+      "parameters": {
+        "public": true,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "8b1d3456-efbc-488b-9826-c45d319a1834",
+      "name": "When chat message received",
+      "webhookId": "257fb2dd-7299-4fb2-95d1-9f93391c7933"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "[\n  {\n    \"id\": \"194db4d460bb3ecf\",\n    \"threadId\": \"194cbc757013ed53\",\n    \"snippet\": \"Message not delivered There was a problem delivering your message to support@mpocket.com. See the technical details below or try resending in a few minutes. LEARN MORE The response was: The recipient\",\n    \"payload\": {\n      \"mimeType\": \"multipart/report\"\n    },\n    \"sizeEstimate\": 20270,\n    \"historyId\": \"2788217\",\n    \"internalDate\": \"1738846062000\",\n    \"labels\": [\n      {\n        \"id\": \"INBOX\",\n        \"name\": \"INBOX\"\n      },\n      {\n        \"id\": \"IMPORTANT\",\n        \"name\": \"IMPORTANT\"\n      },\n      {\n        \"id\": \"CATEGORY_UPDATES\",\n        \"name\": \"CATEGORY_UPDATES\"\n      },\n      {\n        \"id\": \"UNREAD\",\n        \"name\": \"UNREAD\"\n      }\n    ],\n    \"To\": \"manojkumargowd063@gmail.com\",\n    \"From\": \"Mail Delivery Subsystem <mailer-daemon@googlemail.com>\",\n    \"Subject\": \"Delivery Status Notification (Failure)\"\n  },\n  {\n    \"id\": \"194db4d00c2c18ab\",\n    \"threadId\": \"194db4d00c2c18ab\",\n    \"snippet\": \"n8n.cloud was granted access to your Google account manojkumargowd063@gmail.com If you did not grant access, you should check this activity and secure your account. Check activity You can also see\",\n    \"payload\": {\n      \"mimeType\": \"multipart/alternative\"\n    },\n    \"sizeEstimate\": 12035,\n    \"historyId\": \"2788100\",\n    \"internalDate\": \"1738846043000\",\n    \"labels\": [\n      {\n        \"id\": \"INBOX\",\n        \"name\": \"INBOX\"\n      },\n      {\n        \"id\": \"CATEGORY_UPDATES\",\n        \"name\": \"CATEGORY_UPDATES\"\n      },\n      {\n        \"id\": \"UNREAD\",\n        \"name\": \"UNREAD\"\n      }\n    ],\n    \"Subject\": \"Security alert\",\n    \"From\": \"Google <no-reply@accounts.google.com>\",\n    \"To\": \"manojkumargowd063@gmail.com\"\n  },\n  {\n    \"id\": \"194db2b4e0f92f93\",\n    \"threadId\": \"194db2b4e0f92f93\",\n    \"snippet\": \"2BHK rented flat - 18000 per month Electricity Bill - 1000 per month Cooking gas,water,groceries - 10000 per month. Internet - 1200 per month Partying - 5000 per month Netflix,Amazon etc … Top stories\",\n    \"payload\": {\n      \"mimeType\": \"multipart/alternative\"\n    },\n    \"sizeEstimate\": 94846,\n    \"historyId\": \"2787975\",\n    \"internalDate\": \"1738843834000\",\n    \"labels\": [\n      {\n        \"id\": \"INBOX\",\n        \"name\": \"INBOX\"\n      },\n      {\n        \"id\": \"CATEGORY_UPDATES\",\n        \"name\": \"CATEGORY_UPDATES\"\n      },\n      {\n        \"id\": \"UNREAD\",\n        \"name\": \"UNREAD\"\n      }\n    ],\n    \"From\": \"Quora Digest <english-quora-digest@quora.com>\",\n    \"To\": \"manojkumargowd063@gmail.com\",\n    \"Subject\": \"How much salary do you need to survive in Bangalore as a couple?\"\n  },\n  {\n    \"id\": \"194dad6134d8071f\",\n    \"threadId\": \"194dad6134d8071f\",\n    \"snippet\": \"Hi Manoj, Please share your resume. I will call yo... ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏\",\n    \"payload\": {\n      \"mimeType\": \"multipart/alternative\"\n    },\n    \"sizeEstimate\": 32314,\n    \"historyId\": \"2787800\",\n    \"internalDate\": \"1738838247000\",\n    \"labels\": [\n      {\n        \"id\": \"INBOX\",\n        \"name\": \"INBOX\"\n      },\n      {\n        \"id\": \"CATEGORY_UPDATES\",\n        \"name\": \"CATEGORY_UPDATES\"\n      },\n      {\n        \"id\": \"UNREAD\",\n        \"name\": \"UNREAD\"\n      }\n    ],\n    \"From\": \"Shweta Vyas <hit-reply@linkedin.com>\",\n    \"Subject\": \"Message replied: Exciting Opportunity: Engineer Role\",\n    \"To\": \"Manoj Kumar Pandi <manojkumargowd063@gmail.com>\"\n  },\n  {\n    \"id\": \"194da68fd719f404\",\n    \"threadId\": \"194da68fd719f404\",\n    \"snippet\": \"Don't miss more exciting opportunities. Dear P.Manojkumar, We have some exciting career opportunities that may interest you. Our platform features a variety of job postings from top MNCs and\",\n    \"payload\": {\n      \"mimeType\": \"text/html\"\n    },\n    \"sizeEstimate\": 8192,\n    \"historyId\": \"2787680\",\n    \"internalDate\": \"1738831100000\",\n    \"labels\": [\n      {\n        \"id\": \"INBOX\",\n        \"name\": \"INBOX\"\n      },\n      {\n        \"id\": \"CATEGORY_PROMOTIONS\",\n        \"name\": \"CATEGORY_PROMOTIONS\"\n      },\n      {\n        \"id\": \"UNREAD\",\n        \"name\": \"UNREAD\"\n      }\n    ],\n    \"To\": \"\\\"P.Manojkumar\\\" <manojkumargowd063@gmail.com>\",\n    \"From\": \"Jushey from Instahyre <jushey@tryinstahyre.com>\",\n    \"Subject\": \"Data Analyst at Jupiter\"\n  }\n]",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.7,
+      "position": [
+        440,
+        0
+      ],
+      "id": "505e8522-4cc6-42da-805f-b31f58a70535",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "deepseek/deepseek-r1:free",
+          "mode": "id"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        480,
+        220
+      ],
+      "id": "62185613-5052-4e5a-a816-7eef61781cad",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "jtVhVVv7CDemy0IT",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "limit": 5,
+        "filters": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        220,
+        0
+      ],
+      "id": "34620385-b2f0-4c30-9986-bf90c0b469a5",
+      "name": "Gmail",
+      "webhookId": "9e48cf5b-7e66-4021-bfd9-7533b330a7f9",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "oNtval8M6wr7uJ0r",
+          "name": "Gmail account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "Gmail",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gmail": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "04d712dd-2336-413f-af4a-44bdce1680c6",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "723a8ba68a18615460eda866e94aed8ded5d51a7b8ef233f868d27f336a99078"
+  },
+  "id": "QDevXeji51LNdfZC",
+  "tags": []
+}
